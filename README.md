@@ -93,8 +93,13 @@ Bạn có thể:
 ### Bước 4: Đánh giá
 - Sinh caption cho ảnh trong tập test
 - So sánh với caption thực tế
-- Tính BLEU score (nếu có)
-
+- Tính BLEU, METEOR, ROUGE 
+<p align="center">
+  <img src="Pic/sosanh.png" width="500"/>
+</p>
+<p align="center">
+  <em>Hình 1: So sánh caption giữa caption gốc và caption dự đoán </em>
+</p>
 ---
 
 ## 5. Cấu trúc thư mục
@@ -135,7 +140,7 @@ Ví dụ kết quả:
   <img src="Pic/ketqua.png" width="500"/>
 </p>
 <p align="center">
-  <em>Hình 1: Kết quả sinh caption cho ảnh mẫu</em>
+  <em>Hình 2: Kết quả sinh caption cho ảnh mẫu</em>
 </p>
 
 ---
