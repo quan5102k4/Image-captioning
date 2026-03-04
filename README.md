@@ -68,11 +68,11 @@ Mô hình gồm 3 thành phần chính:
 Image_captioning/
 │
 ├── data/                     
-│   ├── Images/               # thư mục chứa ảnh                                     
-│   └── captions.txt          # File chứa captions ảnh 
-├── features_attention.pkl    # Đặc trưng ảnh đã trích xuất
-├── Project2_attention.ipynb  # Notebook chính
-├── Pic/                      # Hình ảnh minh họa
+│   ├── Images/                           # thư mục chứa ảnh
+│   ├── features_attention.pkl    # Đặc trưng ảnh đã trích xuất                                     
+│   └── captions.txt                      # File chứa captions ảnh 
+├── Project2_attention.ipynb              # Notebook chính
+├── Pic/                                  # Hình ảnh minh họa
 └── README.md
 ```
 ---
