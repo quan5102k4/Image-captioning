@@ -69,7 +69,7 @@ Image_captioning/
 │
 ├── data/                     
 │   ├── Images/                           # thư mục chứa ảnh
-│   ├── features_attention.pkl    # Đặc trưng ảnh đã trích xuất                                     
+│   ├── features_attention.pkl            # Đặc trưng ảnh đã trích xuất                                     
 │   └── captions.txt                      # File chứa captions ảnh 
 ├── Project2_attention.ipynb              # Notebook chính
 ├── Pic/                                  # Hình ảnh minh họa
