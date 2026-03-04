@@ -24,12 +24,13 @@ Bạn có thể tải bộ dữ liệu tại:
 https://www.kaggle.com/datasets/adityajn105/flickr8k
 
 Sau khi tải về, đặt dữ liệu theo cấu trúc:
-
+```
 Image_captioning/
 │
 ├── data/
 │   ├── Images/
 │   └── captions.txt
+```
 ---
 
 ## 2. Mục tiêu
