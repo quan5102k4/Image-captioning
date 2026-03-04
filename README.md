@@ -129,15 +129,13 @@ Chất lượng phụ thuộc vào:
 - Cơ chế Attention
 
 Ví dụ kết quả:
-
-Ảnh: 
 <p align="center">
   <img src="Pic/ketqua.png" width="500"/>
 </p>
 <p align="center">
   <em>Hình 1: Kết quả sinh caption cho ảnh mẫu</em>
+  <em>Caption dự đoán: "two people in the subway bus"</em>
 </p>
-Caption dự đoán: "two people in the subway bus"
 
 ---
 
