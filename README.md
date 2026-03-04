@@ -9,6 +9,27 @@ Bài toán Image Captioning là sự kết hợp giữa:
 - Thị giác máy tính (Computer Vision)
 - Xử lý ngôn ngữ tự nhiên (NLP)
 
+## Bộ dữ liệu
+
+Dự án này sử dụng bộ dữ liệu **Flickr8k** cho bài toán Image Captioning.
+Flickr8k là một bộ dữ liệu chuẩn (benchmark dataset) thường được sử dụng trong nghiên cứu và thực nghiệm các mô hình Image Captioning.
+
+- Nguồn: Flickr8k trên Kaggle
+- Tổng số ảnh: 8.000 ảnh
+- Mỗi ảnh có 5 câu mô tả do con người gán nhãn.
+
+Do giới hạn dung lượng của GitHub, thư mục ảnh gốc (`data/Images/`) không được đưa vào repository này.
+
+Bạn có thể tải bộ dữ liệu tại:
+https://www.kaggle.com/datasets/adityajn105/flickr8k
+
+Sau khi tải về, đặt dữ liệu theo cấu trúc:
+
+Image_captioning/
+│
+├── data/
+│   ├── Images/
+│   └── captions.txt
 ---
 
 ## 2. Mục tiêu
@@ -50,6 +71,18 @@ Mô hình gồm 3 thành phần chính:
 ### Bước 2: Trích xuất đặc trưng
 - Đưa ảnh qua CNN
 - Lưu đặc trưng vào file `features_attention.pkl`
+## File đặc trưng ảnh (Image Features)
+
+Để tăng tốc quá trình huấn luyện, đặc trưng ảnh được trích xuất trước bằng mô hình CNN (InceptionV3) và lưu lại dưới dạng file:
+
+data/features_attention.pkl
+
+File này chứa vector đặc trưng của toàn bộ ảnh trong dataset.
+
+Do kích thước lớn (khoảng 4GB), file này không được upload lên GitHub.
+
+Bạn có thể:
+- Tự chạy notebook để trích xuất lại đặc trưng
 
 ### Bước 3: Huấn luyện mô hình
 - Tính loss bằng CrossEntropyLoss
@@ -97,7 +130,13 @@ Chất lượng phụ thuộc vào:
 
 Ví dụ kết quả:
 
-Ảnh: (minh họa)
+Ảnh: 
+<p align="center">
+  <img src="Pic/ketqua.png" width="500"/>
+</p>
+<p align="center">
+  <em>Hình 1: Kết quả sinh caption cho ảnh mẫu</em>
+</p>
 Caption dự đoán: "two people in the subway bus"
 
 ---
