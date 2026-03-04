@@ -43,7 +43,12 @@ Image_captioning/
 ---
 
 ## 3. Kiến trúc mô hình
-
+<p align="center">
+  <img src="Pic/quytrinh.png" width="500"/>
+</p>
+<p align="center">
+  <em>Hình 1: Kiến trúc mô hình </em>
+</p>
 Mô hình gồm 3 thành phần chính:
 
 ### 🔹 Encoder
@@ -98,7 +103,7 @@ Bạn có thể:
   <img src="Pic/sosanh.png" width="500"/>
 </p>
 <p align="center">
-  <em>Hình 1: So sánh caption giữa caption gốc và caption dự đoán </em>
+  <em>Hình 2: So sánh caption giữa caption gốc và caption dự đoán </em>
 </p>
 ---
 
@@ -140,7 +145,7 @@ Ví dụ kết quả:
   <img src="Pic/ketqua.png" width="500"/>
 </p>
 <p align="center">
-  <em>Hình 2: Kết quả sinh caption cho ảnh mẫu</em>
+  <em>Hình 3: Kết quả sinh caption cho ảnh mẫu</em>
 </p>
 
 ---
