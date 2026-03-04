@@ -64,6 +64,7 @@ Mô hình gồm 3 thành phần chính:
 ---
 
 ## 5. Cấu trúc thư mục
+```
 Image_captioning/
 │
 ├── data/                     
@@ -73,7 +74,7 @@ Image_captioning/
 ├── Project2_attention.ipynb  # Notebook chính
 ├── Pic/                      # Hình ảnh minh họa
 └── README.md
-
+```
 ---
 
 ## 6. Công nghệ sử dụng
