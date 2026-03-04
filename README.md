@@ -107,6 +107,7 @@ Image_captioning/
 │   └── captions.txt                      # File chứa captions ảnh 
 ├── Project2_attention.ipynb              # Notebook chính
 ├── Pic/                                  # Hình ảnh minh họa
+├── .gitignore                                
 └── README.md
 ```
 ---
